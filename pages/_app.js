@@ -1,7 +1,16 @@
-import '../styles/globals.css'
+import '../styles/globals.scss';
+import '../styles/ReactToastify.scss';
+import { ToastContainer, Slide } from 'react-toastify';
 
-function MyApp({ Component, pageProps }) {
-  return <Component {...pageProps} />
+export default function App({ Component, pageProps }) {
+	return (
+		<>
+			<Component {...pageProps} />
+			<ToastContainer
+				position="bottom-right"
+				transition={Slide}
+				closeButton={false}
+			/>
+		</>
+	);
 }
-
-export default MyApp
