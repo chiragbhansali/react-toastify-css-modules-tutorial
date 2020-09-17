@@ -1,0 +1,20 @@
+{
+	"name": "react-toastify-css-modules-tutorial",
+	"version": "0.1.0",
+	"private": true,
+	"scripts": {
+		"dev": "next dev -p 4500",
+		"build": "next build",
+		"start": "next start"
+	},
+	"dependencies": {
+		"next": "9.5.3",
+		"react": "16.13.1",
+		"react-dom": "16.13.1",
+		"react-toastify": "^6.0.8"
+	},
+	"devDependencies": {
+		"@zeit/next-sass": "^1.0.1",
+		"next-sass": "^1.0.3"
+	}
+}
